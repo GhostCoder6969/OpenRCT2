@@ -332,7 +332,7 @@ namespace OpenRCT2::String
 
     u8string formatVA(const utf8* format, va_list args)
     {
-        // When passing no buffer and a size of 0, vsnprintf returns the numbers of chars it would have writte, excluding the
+        // When passing no buffer and a size of 0, vsnprintf returns the numbers of chars it would have written, excluding the
         // null terminator.
         va_list copy;
         va_copy(copy, args);

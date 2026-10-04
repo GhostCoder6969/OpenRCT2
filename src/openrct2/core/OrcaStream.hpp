@@ -124,7 +124,7 @@ namespace OpenRCT2
                 }
 
                 // early in-dev versions used SHA1 instead of FNV1a, so just assume any file
-                // with a verison number of 0 may be one of these, and don't check their hashes.
+                // with a version number of 0 may be one of these, and don't check their hashes.
                 if (_header.targetVersion > 0)
                 {
                     auto checksum = Crypt::FNV1a(_buffer.GetData(), _buffer.GetLength());

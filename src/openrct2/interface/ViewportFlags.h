@@ -13,7 +13,7 @@
 
 namespace OpenRCT2
 {
-    // Flags must currenly retain their values to avoid breaking plugins.
+    // Flags must currently retain their values to avoid breaking plugins.
     // Values can be changed when plugins move to using named constants.
     enum class ViewportFlag : uint32_t
     {

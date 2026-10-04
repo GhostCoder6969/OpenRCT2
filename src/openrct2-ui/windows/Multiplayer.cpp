@@ -491,7 +491,7 @@ namespace OpenRCT2::Ui::Windows
                     baseHeight += kListRowHeight;
             }
 
-            // TODO: Are these casts still neccessary?
+            // TODO: Are these casts still necessary?
             _windowInformationSize = { static_cast<int16_t>(baseWidth), static_cast<int16_t>(baseHeight) };
             return _windowInformationSize.value();
         }
